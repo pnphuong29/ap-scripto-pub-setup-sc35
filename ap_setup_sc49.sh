@@ -51,7 +51,7 @@ time {
 		mkdir -p "${AP_GH_P29_DIR}"
 
 		# SC108
-		ap_prj_scripto="scripto-pub-sc108"
+		ap_prj_scripto="ap-scripto-pub-core-sc108"
 		export AP_PRJ_SC108_DIR="${AP_GH_P29_DIR}/${ap_prj_scripto}"
 		cd "${AP_GH_P29_DIR}"
 		echo "git clone [git@github.com:pnphuong29/${ap_prj_scripto}.git]"
@@ -61,7 +61,7 @@ time {
 		ln -s "${AP_PRJ_SC108_DIR}" ~/scripto
 
 		# SC1
-		ap_prj_scripts_share="ap-scripts-share-sc1"
+		ap_prj_scripts_share="ap-scripto-share-sc1"
 		export AP_PRJ_SC1_DIR="${AP_GH_P29_DIR}/${ap_prj_scripts_share}"
 		cd "${AP_GH_P29_DIR}"
 		echo "git clone [git@github.com:pnphuong29/${ap_prj_scripts_share}.git]"
@@ -71,7 +71,7 @@ time {
 		ln -s "${AP_PRJ_SC1_DIR}" ~/scripto-share
 
 		# SC28
-		ap_prj_scripts_common="ap-scripts-common-sc28"
+		ap_prj_scripts_common="ap-scripto-common-sc28"
 		export AP_PRJ_SC28_DIR="${AP_GH_P29_DIR}/${ap_prj_scripts_common}"
 		cd "${AP_GH_P29_DIR}"
 		echo "git clone [git@github.com:pnphuong29/${ap_prj_scripts_common}.git]"
@@ -81,7 +81,7 @@ time {
 		ln -s "${AP_PRJ_SC28_DIR}" ~/scripto-common
 
 		# SC49
-		ap_prj_scripts_main="ap-scripts-ubuntu-server-sc49"
+		ap_prj_scripts_main="ap-scripto-ubuntu-server-sc49"
 		export AP_PRJ_SCRIPTS_MAIN_DIR="${AP_GH_P29_DIR}/${ap_prj_scripts_main}"
 		cd "${AP_GH_P29_DIR}"
 		echo "git clone [git@github.com:pnphuong29/${ap_prj_scripts_main}.git]"
