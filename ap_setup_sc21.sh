@@ -47,7 +47,7 @@ time {
 		mkdir -p "${AP_GH_P29_DIR}"
 
 		# SC108
-		ap_prj_scripto="ap-scripto-pub-core-sc108"
+		ap_prj_scripto="ap-scripto-core-pub-sc108"
 		export AP_PRJ_SC108_DIR="${AP_GH_P29_DIR}/${ap_prj_scripto}"
 		cd "${AP_GH_P29_DIR}"
 		echo "git clone [git@github.com:pnphuong29/${ap_prj_scripto}.git]"
